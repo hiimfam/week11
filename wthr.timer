@@ -2,7 +2,7 @@
 Description=timer for wthr.service for every hour
 
 [Timer]
-OnBooTSec=60 m
+OnBootSec=60min
 Unit=wthr.service
 
 [Install]
