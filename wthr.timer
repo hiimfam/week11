@@ -1,0 +1,9 @@
+[Unit]
+Description=timer for wthr.service for every hour
+
+[Timer]
+OnBooTSec=60 m
+Unit=wthr.service
+
+[Install]
+WantedBy=timers.target
